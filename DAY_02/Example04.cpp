@@ -1,8 +1,13 @@
 #include <iostream>
 using namespace std;
 
+void hello()
+{
+    cout << "Hii! Hello..!";
+}
+
 int main()
 {
-    cout << "Hello World";
+    hello();
     return 0;
 }
